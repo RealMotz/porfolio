@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(137, 137, 137, 0.903);
+}
+
+header {
+    background-color: darkgray;
+    height: 75px;
+    padding: 15px;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+nav a {
+    color: white;
+}
+
+section {
+    padding: 15px;
+}
+
+footer {
+    background-color: darkgray;
+    width: 100%;
+    height: 75px;
+    text-align: left;
+    padding: 15px;
+}
+
+footer span {
+    color: white;
+    float: right;
+    line-height: 37.5px;
+}
+
+footer a {
+    color: white;
+    padding: 10px;
+}
+
+footer .footer-nav {
+    padding: 10px;
+}
